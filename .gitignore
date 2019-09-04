@@ -1,0 +1,5 @@
+Tensorflow/0_General/RNN/text_classification_1/files/
+.idea/
+*.pyc
+*.xml
+__pychache__/
