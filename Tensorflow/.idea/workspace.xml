@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b0a22f62-8828-438f-8f57-b9b96087c0d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/0_simplest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week1/0_simplest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/Rough/rough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week1/Rough/rough1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/Snippets/0_simplest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week1/Snippets/0_simplest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/2/computer_vision_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week2/computer_vision_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -30,7 +35,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction" />
+      <recent name="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction\week1" />
+      <recent name="D:\Dev\ML\Tensorflow\0_General" />
       <recent name="D:\Dev\ML\Tensorflow\0_General\RNN\text_classification_1" />
     </key>
   </component>
@@ -46,7 +57,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.computer_vision_1">
+  <component name="RunManager" selected="Python.handwriting_mnist_with_callback">
+    <configuration name="0_simple_callback" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0_General/Callbacks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0_General/Callbacks/0_simple_callback.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="computer_vision_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +92,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/2/computer_vision_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handwriting_mnist_with_callback" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week2/handwriting_mnist_with_callback.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,33 +163,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rough1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/Rough" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/Rough/rough1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.handwriting_mnist_with_callback" />
+        <item itemvalue="Python.0_simple_callback" />
         <item itemvalue="Python.computer_vision_1" />
         <item itemvalue="Python.rough1 (1)" />
         <item itemvalue="Python.model" />
-        <item itemvalue="Python.rough1" />
       </list>
     </recent_temporary>
   </component>
