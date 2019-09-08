@@ -1,9 +1,14 @@
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
-from tensorflow import keras
+import tensorflow as tf
 
-pad_sequences = keras.preprocessing.sequence.pad_sequences
+dataset = [
+    [1,2,3,4],
+    [1,2,3,40],
+]
 
-df = pd.DataFrame([[1,2,1], [1]], columns=['A', 'B', 'C'])
-print(df)
-df = pad_sequences([[1,2,1], [1]], maxlen=5)
-print(df)
+df = pd.DataFrame(dataset)
+X = df.values
+norm_x = tf.keras.utils.normalize(X)
+print(norm_x)

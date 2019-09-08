@@ -18,9 +18,13 @@ def train_mnist():
                                         tf.keras.layers.Dense(10, activation=tf.nn.softmax)])
 
     model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-    history = model.fit(x_train, y_train, epochs=10, callbacks=[myCallback()])
-    return history.epoch, history.history['acc'][-1]
+    history = model.fit(x_train, y_train, epochs=10, validation_data=[x_test, y_test], callbacks=[myCallback()])
+    return history
 
-q, w = train_mnist()
-print(q)
-print(w)
+
+history = train_mnist()
+acc = history.history['acc']
+loss = history.history['loss']
+val_acc = history.history['val_acc']
+val_loss = history.history['val_loss']
+epochs = range(len(acc))
