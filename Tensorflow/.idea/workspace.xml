@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0a22f62-8828-438f-8f57-b9b96087c0d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week1/0_simplest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week1_FNN/0_simplest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week1/Rough/rough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week1_FNN/Rough/rough1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week1/Snippets/0_simplest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week1_FNN/Snippets/0_simplest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week2/computer_vision_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week2_CV/computer_vision_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week2/handwriting_mnist_with_callback.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week2_CV/handwriting_mnist_with_callback.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zz_Rough/rough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/zz_Rough/rough1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.convolution_visualization">
+  <component name="RunManager" selected="Python.custom_convolution">
     <configuration name="computer_vision_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rough1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="custom_convolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zz_Rough" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week3_CNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zz_Rough/rough1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week3_CNN/custom_convolution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.custom_convolution" />
         <item itemvalue="Python.convolution_visualization" />
         <item itemvalue="Python.convolutional_nn_1" />
         <item itemvalue="Python.rough2" />
         <item itemvalue="Python.computer_vision_1 (1)" />
-        <item itemvalue="Python.rough1 (1)" />
       </list>
     </recent_temporary>
   </component>
