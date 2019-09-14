@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0a22f62-8828-438f-8f57-b9b96087c0d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zz_Rough/rough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/zz_Rough/rough2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +32,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction" />
       <recent name="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction\week1" />
       <recent name="D:\Dev\ML\Tensorflow\0_General" />
       <recent name="D:\Dev\ML\Tensorflow\0_General\RNN\text_classification_1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -53,8 +54,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.custom_convolution">
-    <configuration name="computer_vision_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.conv_visualization">
+    <configuration name="conv_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week2_CV" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week2_CV/computer_vision_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/conv_visualization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +76,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="convolution_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fit_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/fit_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mnist_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week3_CNN/convolution_visualization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week3_CNN/mnist_cnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="convolutional_nn_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="predictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,32 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week3_CNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week3_CNN/convolutional_nn_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="custom_convolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week3_CNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week3_CNN/custom_convolution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/predictor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.custom_convolution" />
-        <item itemvalue="Python.convolution_visualization" />
-        <item itemvalue="Python.convolutional_nn_1" />
+        <item itemvalue="Python.conv_visualization" />
+        <item itemvalue="Python.predictor" />
+        <item itemvalue="Python.fit_generator" />
         <item itemvalue="Python.rough2" />
-        <item itemvalue="Python.computer_vision_1 (1)" />
+        <item itemvalue="Python.mnist_cnn" />
       </list>
     </recent_temporary>
   </component>

@@ -4,3 +4,4 @@ Tensorflow/Tensorflow_Specialization/1_Introduction/week3_CNN/files/
 *.pyc
 *.xml
 __pychache__/
+*.h5
