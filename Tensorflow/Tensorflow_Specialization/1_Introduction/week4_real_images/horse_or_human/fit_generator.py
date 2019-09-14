@@ -38,13 +38,14 @@ def previsualization():
 
 # All images will be rescaled bu 1./255
 train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1/255)
+validation_datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1/255)
 
 # Flow training images in batches of 128 using train_datagen generator
 train_generator = train_datagen.flow_from_directory(train_dataset_filepath,
                                                     target_size=(300, 300), batch_size=128,
                                                     class_mode="binary") #bcz we use binary_crosentropy loss
-validation_generator = train_datagen.flow_from_directory(test_dataset_filepath,
-                                                    target_size=(300, 300), batch_size=128,
+validation_generator = validation_datagen.flow_from_directory(test_dataset_filepath,
+                                                    target_size=(300, 300), batch_size=32,
                                                     class_mode="binary")
 
 
