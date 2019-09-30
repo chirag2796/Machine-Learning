@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0a22f62-8828-438f-8f57-b9b96087c0d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/conv_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/horse_or_human/conv_visualization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/fit_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/horse_or_human/fit_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/notebooks/Horse_or_Human_NoValidation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/horse_or_human/notebooks/Horse_or_Human_NoValidation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/horse_or_human/predictor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Scikit-Learn" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -58,8 +54,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model">
-    <configuration name="conv_visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.4_visualizing_convolutions">
+    <configuration name="4_visualizing_convolutions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/2_Convolutional_Neural_Networks/week1/cats_vs_dogs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction\week4_real_images\horse_or_human\conv_visualization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/2_Convolutional_Neural_Networks/week1/cats_vs_dogs/4_visualizing_convolutions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fit_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="data_exploration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +84,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/2_Convolutional_Neural_Networks/week1/cats_vs_dogs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction\week4_real_images\horse_or_human\fit_generator.py" />
+      <option name="SCRIPT_NAME" value="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\2_Convolutional_Neural_Networks\week1\cats_vs_dogs\1_data_exploration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/2_Convolutional_Neural_Networks/week1/cats_vs_dogs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\2_Convolutional_Neural_Networks\week1\cats_vs_dogs\2_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="predictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="predictor (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,32 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/2_Convolutional_Neural_Networks/week1/cats_vs_dogs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\1_Introduction\week4_real_images\horse_or_human\predictor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rough2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zz_Rough" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zz_Rough/rough2.py" />
+      <option name="SCRIPT_NAME" value="D:\Dev\ML\Tensorflow\Tensorflow_Specialization\2_Convolutional_Neural_Networks\week1\cats_vs_dogs\3_predictor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4_visualizing_convolutions" />
+        <item itemvalue="Python.predictor (1)" />
+        <item itemvalue="Python.model (1)" />
+        <item itemvalue="Python.data_exploration" />
         <item itemvalue="Python.model" />
-        <item itemvalue="Python.conv_visualization" />
-        <item itemvalue="Python.predictor" />
-        <item itemvalue="Python.fit_generator" />
-        <item itemvalue="Python.rough2" />
       </list>
     </recent_temporary>
   </component>
