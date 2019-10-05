@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4_visualizing_convolutions">
+  <component name="RunManager" selected="Python.model (2)">
     <configuration name="4_visualizing_convolutions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="model (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/happy_or_sad" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorflow_Specialization/2_Convolutional_Neural_Networks/week2_augmentation/cats_vs_dogs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/1_Introduction/week4_real_images/happy_or_sad/model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorflow_Specialization/2_Convolutional_Neural_Networks/week2_augmentation/cats_vs_dogs/model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.model (2)" />
         <item itemvalue="Python.4_visualizing_convolutions" />
         <item itemvalue="Python.predictor (1)" />
         <item itemvalue="Python.model (1)" />
         <item itemvalue="Python.data_exploration" />
-        <item itemvalue="Python.model" />
       </list>
     </recent_temporary>
   </component>
