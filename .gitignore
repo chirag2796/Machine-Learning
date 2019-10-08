@@ -6,3 +6,6 @@ Tensorflow/Tensorflow_Specialization/1_Introduction/week3_CNN/files/
 __pychache__/
 *.h5
 logs/
+Trained_Models/
+
+Scikit-Learn/Hands_On_Book/Repo
