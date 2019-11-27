@@ -5,15 +5,7 @@ from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english'))
 
 text = '''
-This hostel is 100% the worst hostel I’ve ever visited and I’ve stayed in some pretty dodgy places!
-
-The staff are rude
-How having 3 bunk high is legal I don’t know
-The rooms are so hot, not airflow at all
-My dorm absolutely stunk - can’t have been properly cleaned for a long time
-The showers were filthy and you had to do a 3 point turn just to get in them!
-
-I would NEVER stay again, plenty of much better hostels locally for the same price!
+I had a couple of meetings in the nearby area and hence chosen this hotel. Rooms are below average. No amenities present. TV seemed to be from stone age. The moment I stepped in, I started searching for another hotel in the same locality. Some of the staffs lack basic manners. The only plus point is that this hotel is in Brigade road; a shoppers street. So I was able to stay out than stay in the hotel.
 '''
 def is_match_valid(match):
     if len(list(filter(lambda word: word not in stop_words, match))) <= 1:

@@ -6,7 +6,7 @@ with open("files\\saved_model\\rf_model_balanced.pickle", 'rb') as file:
 
 reviews = [
     '''
-    Hostel is not clean, my bedsheat was dirty. There is 1bathrooom for whole floor(2showers&2toilets),also always dirty.Reception is actually in bar ground floor and bar is opened until 2am so its loud all night, thin walls, you hear every sound in the room:people argue and walking. Halways smell of weed. Hostel is dark/dim lights,old and dirty and I didnt see anything good there. It's 30 minutes drive from city center and price of room is same as city centre so actually no advantage to pick this hostel at all.Pictures of hostel look much better than hostel itself. Also,we booked double bedroom and we got 2single beds.
+    I had a couple of meetings in the nearby area and hence chosen this hotel. Rooms are below average. No amenities present. TV seemed to be from stone age. The moment I stepped in, I started searching for another hotel in the same locality. Some of the staffs lack basic manners. The only plus point is that this hotel is in Brigade road; a shoppers street. So I was able to stay out than stay in the hotel.
     '''
 ]
 
@@ -94,5 +94,6 @@ features = [c for c in reviews_df.columns if c not in ignore_cols]
 # df = reviews_df[features]
 # df.to_csv("files\\temp.csv")
 # exit()
-
 print(model.predict(reviews_df[features]))
+category = "Positive" if model.predict(reviews_df[features]) == 0 else "Negative"
+print(category)
