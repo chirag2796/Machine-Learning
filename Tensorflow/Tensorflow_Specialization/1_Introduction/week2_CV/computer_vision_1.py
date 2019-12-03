@@ -15,5 +15,5 @@ model = tf.keras.models.Sequential([tf.keras.layers.Flatten(),
                                     tf.keras.layers.Dense(10, activation=tf.nn.softmax)])
 
 model.compile(optimizer=tf.train.AdamOptimizer(), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-model.fit(training_images, training_labels , epochs=5)
+model.fit(training_images, training_labels, epochs=5)
 print(model.evaluate(test_images, test_labels))

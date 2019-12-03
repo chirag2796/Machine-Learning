@@ -10,7 +10,7 @@ def visualization():
     housing = load_housing_data()
     print(housing.head())
     print(housing.info())
-    print(housing["ocean_proximity"]).value_counts()
+    print(housing["ocean_proximity"].value_counts())
     print(housing.describe())
     housing.hist(bins=50, figsize=(20, 15))
     plt.show()

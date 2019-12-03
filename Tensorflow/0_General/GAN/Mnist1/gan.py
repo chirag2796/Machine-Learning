@@ -1,5 +1,8 @@
+# https://medium.com/datadriveninvestor/generative-adversarial-network-gan-using-keras-ce1c05cfdfd3
+
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
