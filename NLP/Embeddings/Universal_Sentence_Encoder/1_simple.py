@@ -52,8 +52,7 @@ tf.logging.set_verbosity(tf.logging.ERROR)
 
 with tf.Session() as session:
   session.run([tf.global_variables_initializer(), tf.tables_initializer()])
-  message_embeddings = session.run(
-      encodings,
+  message_embeddings = session.run(encodings,
       feed_dict={input_placeholder.values: values,
                 input_placeholder.indices: indices,
                 input_placeholder.dense_shape: dense_shape})
