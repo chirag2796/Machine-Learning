@@ -13,9 +13,9 @@ def train_cifar100_conv():
     image_y_size = training_images[0].shape[1]
     image_pixel_size = training_images[0].shape[2]
 
-    training_images = training_images / 255.0
+    training_images = training_images/255.0
     training_images = training_images.reshape(len(training_images), image_x_size, image_y_size, image_pixel_size)
-    test_images = test_images / 255.0
+    test_images = test_images/255.0
     test_images = test_images.reshape(len(test_images), image_x_size, image_y_size, image_pixel_size)
 
     model = tf.keras.models.Sequential([tf.keras.layers.Conv2D(32, (3,3), activation='relu', input_shape=(image_x_size, image_y_size, image_pixel_size)),
