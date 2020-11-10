@@ -5,7 +5,6 @@ import tensorflow as tf
 
 dataset = [
     [1,2,3,4],
-    [1,2,3,40],
 ]
 
 df = pd.DataFrame(dataset)
