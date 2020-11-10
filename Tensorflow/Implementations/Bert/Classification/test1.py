@@ -2,6 +2,7 @@ import ktrain
 from ktrain import text
 
 IMDB_DATADIR = r"D:\Dev\Datasets\Text\Classification\Imdb\aclImdb"
+
 (x_train, y_train), (x_test, y_test), preproc = text.texts_from_folder(IMDB_DATADIR,
                                                                        maxlen=500,
                                                                        preprocess_mode='bert',
