@@ -1,3 +1,3 @@
 import tensorflow as tf
 
-custom_ayer = tf.keras.layers.Dense
+custom_layer = tf.keras.layers.Dense
