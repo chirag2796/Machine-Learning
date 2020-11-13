@@ -53,4 +53,4 @@ for i in range(1, len(pass_input_sizes)):
 # y = y_train[number_of_images:number_of_images+10]
 # predictions = [np.argmax(pred) for pred in model.predict(x)]
 # print(predictions)
-print(y)
+# print(y)
