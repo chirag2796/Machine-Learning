@@ -10,6 +10,7 @@ IMDB_DATADIR = r"D:\Dev\Datasets\Text\Classification\Imdb\aclImdb"
                                                                                          'test'],
                                                                        classes=['pos', 'neg'])
 # print(x_train[0])
+
 model = text.text_classifier('bert', (x_train, y_train), preproc=preproc)
 learner = ktrain.get_learner(model,train_data=(x_train, y_train), val_data=(x_test, y_test), batch_size=6)
 
