@@ -31,3 +31,27 @@ def get_new_model():
                   metrics=['accuracy'])
     return model
 
+pass_input_sizes = [25, 30, 40, 50, 60, 70, 80, 100, 120]
+
+pass_x_train = x_train[:pass_input_sizes[0]]
+pass_y_train = y_train[:pass_input_sizes[0]]
+model = get_new_model()
+model.fit(pass_x_train, pass_y_train, epochs=40, callbacks=[tensorboard], validation_data=(x_test, y_test), verbose=2)
+
+for i in range(1, len(pass_input_sizes)):
+    del model
+    model = get_new_model()
+    number_of_images = pass_input_sizes[i]
+    pass_x_train = x_train[:number_of_images]
+
+    next_pass_x = x_train[pass_input_sizes[0]: pass_input_sizes[i]]
+    predictions = [np.argmax(pred) for pred in model.predict(next_pass_x)]
+    pass_y_train = np.concatenate((y_train[:pass_input_sizes[0]], predictions), axis=0)
+    model.fit(pass_x_train, pass_y_train, epochs=40, callbacks=[tensorboard], validation_data=(x_test, y_test), verbose=2)
+
+
+# x = x_train[number_of_images:number_of_images+10]
+# y = y_train[number_of_images:number_of_images+10]
+# predictions = [np.argmax(pred) for pred in model.predict(x)]
+# print(predictions)
+# print(y)
