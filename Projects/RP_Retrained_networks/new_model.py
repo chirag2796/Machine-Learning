@@ -55,3 +55,4 @@ for i in range(1, len(pass_input_sizes)):
 # predictions = [np.argmax(pred) for pred in model.predict(x)]
 # print(predictions)
 # print(y)
+print(model.summary())
