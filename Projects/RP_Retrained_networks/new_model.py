@@ -50,9 +50,3 @@ for i in range(1, len(pass_input_sizes)):
     model.fit(pass_x_train, pass_y_train, epochs=40, callbacks=[tensorboard], validation_data=(x_test, y_test), verbose=2)
 
 
-# x = x_train[number_of_images:number_of_images+10]
-# y = y_train[number_of_images:number_of_images+10]
-# predictions = [np.argmax(pred) for pred in model.predict(x)]
-# print(predictions)
-# print(y)
-print(model.summary())
