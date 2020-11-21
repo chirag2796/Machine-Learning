@@ -47,6 +47,6 @@ for i in range(1, len(pass_input_sizes)):
     next_pass_x = x_train[pass_input_sizes[0]: pass_input_sizes[i]]
     predictions = [np.argmax(pred) for pred in model.predict(next_pass_x)]
     pass_y_train = np.concatenate((y_train[:pass_input_sizes[0]], predictions), axis=0)
-    model.fit(pass_x_train, pass_y_train, epochs=20, callbacks=[tensorboard], validation_data=(x_test, y_test), verbose=2)
+    model.fit(pass_x_train, pass_y_train, epochs=32, callbacks=[tensorboard], validation_data=(x_test, y_test), verbose=2)
 
 
