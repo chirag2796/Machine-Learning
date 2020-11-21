@@ -32,6 +32,7 @@ def get_new_model():
     return model
 
 pass_input_sizes = [25, 30, 40, 50, 60, 70, 80, 100, 120]
+pass_input_sizes = [25, 30, 40, 50, 60, 70, 80, 100, 120]
 
 pass_x_train = x_train[:pass_input_sizes[0]]
 pass_y_train = y_train[:pass_input_sizes[0]]
