@@ -26,7 +26,7 @@ def get_new_model():
     model.add(tf.keras.layers.Dense(32, activation=tf.nn.relu))
     model.add(tf.keras.layers.Dense(32, activation=tf.nn.relu))
     model.add(tf.keras.layers.Dense(10, activation=tf.nn.softmax))
-    model.add(tf.keras.layers.Dense(8, activation=tf.nn.softmax))
+    model.add(tf.keras.layers.Dense(10, activation=tf.nn.softmax))
     model.add(tf.keras.layers.Dense(8, activation=tf.nn.softmax))
     model.compile(optimizer='adam',
                   loss='sparse_categorical_crossentropy',
