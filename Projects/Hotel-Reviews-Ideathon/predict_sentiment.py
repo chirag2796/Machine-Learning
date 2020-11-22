@@ -91,9 +91,9 @@ reviews_df = pd.concat([reviews_df, tfidf_df], axis=1)
 ignore_cols = ['review', 'is_bad_review', 'review_clean', 'neg', 'neu', 'pos', 'compound', 'nb_chars', 'nb_words']
 features = [c for c in reviews_df.columns if c not in ignore_cols]
 
-# df = reviews_df[features]
-# df.to_csv("files\\temp.csv")
-# exit()
-print(model.predict(reviews_df[features]))
-category = "Positive" if model.predict(reviews_df[features]) == 0 else "Negative"
-print(category)
+df = reviews_df[features]
+df.to_csv("files\\temp.csv")
+exit()
+# print(model.predict(reviews_df[features]))
+# category = "Positive" if model.predict(reviews_df[features]) == 0 else "Negative"
+# print(category)
