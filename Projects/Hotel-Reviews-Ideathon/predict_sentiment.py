@@ -50,7 +50,6 @@ from nltk.corpus import stopwords
 from nltk.tokenize import WhitespaceTokenizer
 from nltk.stem import WordNetLemmatizer
 
-
 def clean_text(text):
     # lower text
     text = text.lower()
