@@ -8,6 +8,8 @@ a = [
      [2, 'abb'],
      [2, 'abbb'],
      [2, 'ab'],
+     [3, 'ab'],
+     [3, 'ab'],
 ]
 
 df = pd.DataFrame(a, columns=['label', 'data'])
