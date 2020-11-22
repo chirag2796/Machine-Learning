@@ -4,7 +4,6 @@ DATASET_FILEPATH = r"D:\Dev\Datasets\Text\Classification\Hotel_Reviews\Hotel_Rev
 import pandas as pd
 import pickle
 
-
 # read data
 reviews_df = pd.read_csv(DATASET_FILEPATH)
 # append the positive and negative text reviews
