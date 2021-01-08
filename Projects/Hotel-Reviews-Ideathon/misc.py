@@ -5,7 +5,6 @@ a = [
      [1, 'aaa'],
      [2, 'ab'],
      [2, 'ab'],
-     [2, 'abb'],
 ]
 
 df = pd.DataFrame(a, columns=['label', 'data'])
